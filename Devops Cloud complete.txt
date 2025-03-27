@@ -1,0 +1,1228 @@
+1)What is Cloud?
+--------------
+In the context of computing, the term "cloud" refers to a network of remote servers 
+hosted on the internet to store, manage and process data rather than a local or a 
+personal computer. Cloud computing allows users to access computing resources and 
+services on-demand over the internet, eliminating the need for physical infrasture 
+and providing scalability , flexibility and cost-effectiveness.
+
+Components and examples of cloud services.
+
+1)Infrastructure as a Service (IaaS):-
+-------------------------------------
+Examples: Amazon Web Services(AWS),Microsoft Azure, Google Cloud Platform(GCP).
+IaaS provides virtualized computing resources over the internet, including virtual machines,
+(VM-Virtual Machines:-
+-----------------------
+A virtual machine is a software emulation of a physical computer.It 
+allows multiple operating systems to run on a single physical machine known as the host, 
+by using virtualization technology.) storage, and networking.
+
+2)Platform as a Service(PaaS):-
+-------------------------------
+Examples:Heroku,Google App Engine, Microsoft Azure App Service.
+PaaS offers a platform allowing developers to build,deploy and manage 
+applications without worrying about the underlying infrastructure.
+
+3)Software as a Service(SaaS):-
+-------------------------------
+Examples:-Salesforce, Google Workspace, Microsoft 365.
+SaaS delivers software applications over the internet , eliminating 
+the need for users to install, maintain and update the software locally.
+
+4)Storage as a Service(SaaS):-
+------------------------------
+Examples:Amazon S3, Google Cloud Storage, Microsoft Azure Blob Storage.
+This service provides scalable and secure cloud-based storage solution 
+for data, files and objects.
+
+5)Database as a Service(DBaaS):-
+--------------------------------
+Examples:-Amazon RDS , Azure SQL Database, Google Cloud SQL.
+DBaaS offers database management and hosting services, 
+allowing users to deploy and scale databases without managing 
+the underlying infrastructure.
+
+6)Function as a Service(FaaS)/Serverless Computing:-
+----------------------------------------------------
+Examples:-AWS Lambda, Azure Functions, Goolge Cloud Functions.
+FaaS ebables developers to run individual functions or pieces 
+of code in response to events without managing the entire infrastructure.
+
+7)Networking as a Service:-
+---------------------------
+Examples:-Amazon VPC, Azure Virtual Network, Google Cloud Virtual Private Cloud(VPC).
+Networking services in the cloud provide virtualized infrastructure for building and 
+managing networks, including VPNs, firewalls and load balancers.
+
+8)Container as a Service(CaaS):-
+--------------------------------
+Examples:-Google Kubernetes Engine(GKE),Azure Kubernetes Service(AKS),
+Amazon EKS.
+CaaS offers a platform for deploying, managing and orchestrating containers, 
+providing a scalable and efficient way to run applications.
+(Cloud computing has become a fundamental technology for businessess and 
+individual, offering a wide range of services to meet various computing needs)
+===============================================================================
+2)What is a Datacenter?
+--------------------
+A data center is a facility composed of networked computers, servers, storage, and 
+other computing components that are organized for the purpose of collecting, 
+processing, storing, and managing large amounts of data. Data centers play a crucial 
+role in supporting the operations of organizations by providing a centralized and 
+secure environment for IT infrastructure.
+
+1)Servers and Computing Equipment:-
+----------------------------------
+Data centers house a multitude of servers and computing devices that are used to run 
+applications, process data, and handle various computing tasks.
+
+2)Networking Equipment:-
+------------------------
+Networking equipment, such as routers, switches, and firewalls, is essential for connecting 
+the different components within the data center and facilitating communication with the 
+external network.
+
+3)Storage Systems:-
+-------------------
+Data centers include storage systems, such as hard drives, solid-state drives, 
+and network-attached storage (NAS), for storing and retrieving data.
+
+4)Power Infrastructure:-
+------------------------
+Data centers require a robust power infrastructure to ensure a continuous and 
+reliable power supply. This includes backup generators, uninterruptible power 
+supply (UPS) systems, and power distribution units (PDUs).
+
+5)Cooling Systems:-
+-------------------
+Given the high density of electronic equipment, data centers employ cooling systems 
+to regulate temperature and prevent overheating. This may involve air conditioning units, 
+liquid cooling systems, or other cooling technologies.
+
+6)Physical Security Measures:-
+------------------------------
+Data centers implement strict physical security measures to protect against unauthorized 
+access. This includes access control systems, surveillance cameras, biometric authentication, 
+and security personnel.
+
+7)Redundancy and High Availability:-
+------------------------------------
+To ensure continuous operation, data centers often incorporate redundancy in critical systems, 
+such as power supplies, networking, and storage. This helps prevent downtime in the event of 
+hardware failures or maintenance activities.
+
+8)Fire Suppression Systems:-
+----------------------------
+Fire suppression systems are crucial for protecting equipment and data in the event of a fire. 
+These systems may include fire extinguishers, sprinklers, or specialized gas-based suppression systems.
+
+9)Monitoring and Management Systems:-
+-------------------------------------
+Data centers use monitoring tools to keep track of the performance, temperature, and overall health of 
+the IT infrastructure. Management systems help administrators configure, deploy, and troubleshoot resources.
+
+10)Scalability:
+Data centers are designed to be scalable, allowing organizations to easily expand their computing resources 
+to accommodate growing needs.
+Advantages of cloud:-
+---------------------
+1.Cost effective
+2.Scalibility
+3.Agility(Agile Methodology)
+Scrum Master(Developer->Tester->Deployment[V.M] =>Sprint)
+AZURE BOARDS
+4.Ready to use services
+5.Quick deployment
+
+Disadvantages of Cloud:-
+------------------------
+1.Recurring Cost
+2.Security/Lack of control
+3.Vendor Locked in
+===========================================================================================================
+3)SDLC(Software Development LifeCycle) ?
+1)Build a Messenger:
+-Gather the requirements..(plan)
+-Start Developing the code and completed it.(code)
+-Testers Team.(test)
+-Place it in play store.(deploy)
+=====================================================
+4)Application Tiers:
+	1.Front End => Application Server (Request) => Database/Storage System
+			Front End<=Response<=Database
+1.Webserver
+2.Application Server
+3.Storage System Database
+=============================================================
+5)Models Of Clouds:
+-----------------
+To run an application:
+Application=>Server=>Database=>Network=>Vertualization 
+1.Storage,Network,Virtualization,Server=>Infrastructure as a service-IAAS
+2.Storage,Netwoek,Virtualization,Server,OS,Runtime=>Platform as a service-PAAS
+3.Storage,Network,Virtualization,Data,Runtime=>Software as a service-SAAS
+==================================================================================
+6)Types of Clouds:-
+-------------------
+1.Private Cloud:
+Governement:
+	Pay my property Tax==>Application :Public Cloud
+	Register on your name.
+	App:Enter all Details of your property:Private Cloud
+Bank:
+	Home Loan:
+	Personal information:
+	App:Save all the detailed information of the customer 
+2.Public Cloud:Application can be accessed by general public.
+3.Hybrid Cloud:Customers who are using both private as well as public clouds are called as Hybrid cloud customers.
+	Public					Private
+1.Application are accessed by all.		1.Application can be accessed by authorized members only.
+2.Application which has less confidential	2.Application which has high confidential information.
+information.
+3.Cost will be less				3.Cost will be high
+4.Internet,IP Address				4.Internet,Secure IP Address
+5.More Applications				5.Less Applications
+=============================================================================
+Azure Account Creation:
+1.Valid email id: User ID to access your account
+2.Valid phone number:
+3.Valid Credit Card:2/-
+
+Active Directory:This will be tagged to your account once we create the account.
+	1.To add the names to provide the access to the account.
+Subscriptions:Paid Model
+	1.Free Trial 30 days
+	4GB of RAM and 1TB of Hard Disk==>2000/month
+	I have consumed for just 2 hours and later I have deleted the VM==>6/-
+	
+	30th day 5000/- ===> No and account will be stopped
+	20th day 0/- ===>No
+	
+	2.Pay as you go:Pan Number
+	3.Enterprise Level
+5 people ===>
+Distribution list email ID
+
+Stop:You will be charged because we are using the space to maintain my stopped virtual Machine.
+Delete:Remove everything from cloud:You no need to pay anything.
+
+Owner
+Contributer
+Read
+============================================================================
+RESOURCE GROUP:
+for every resource with in my account what ever we are trying to create it requires
+1.Subscription
+2.Resource group
+Max number of subscription: Unlimited
+Max number of RG/Subscription:980
+Per Resource :800(VM,ACR ETC)
+==============================================
+Creation of windows virtual machine
+Resource groups can be created in 2 ways:
+1.We can create with in the resource what we are trying to create(VM,storage accounts..)
+2.We can create the RG all alone first and then we can use the created RG in the instances
+
+60+ Regions: 3-4 data centers
+EASTUS FOR RG: VRIT-RG
+CREATE THE VM: VRIT-RG
+RG AND VM BOTH WILL BE UNDER SAME LOCATION.
+1.WHAT KIND OF RESOURCE: VIRTUALMACHINE
+2.WHAT APPLICATION WE ARE RUNNING IN THE VIRTUALMACHINE:DOTNET
+3.WHICH LOCATION:EASTUS
+4.ENVIRONMENT:DEV
+5.ADD SERIAL NUMBER   
+
+VM-DOTNET-EASTUS-DEV-001
+
+WINDOWS-VM
+LINUX-VM
+
+1.CHENNAI
+2.MUMBAI
+3.PUNE
+
+AZURE SPOT INSTANCE:
+EASTUS:SPACE IN REGION IS ALREADY FILLED UP. 
+CLOUD WILL ALLOW YOU TO RUN YOUR APPLICATION IN EASTUS UNTILL THE MAIN APPLICATION PERSON STARTS SERVER
+DISCOUNT:90%
+IOPS:Input Output Operations per Seconds
+IOPS, which stands for Input/Output Operations Per Second, 
+is a metric used to measure the performance of storage devices, 
+including those used in virtual machines(VMs).
+In the context of virtual machines,IOPS becomes particularly 
+important as it reflects the ability of the storage system to 
+handle read and write operations.
+Administration Account:
+Public Usage:
+1.HTTP:80
+2.HTTPS:443
+3.SSH:22
+4.RDP:3389
+Network Security Group
+Actor==>HTTP,HTTPS==>NSG==>Front End==>Backend
+
+Disk
+1.HDD:Hard Disk Drive
+2.SSD:Solid State Drive
+Redundancy:
+-----------
+In the context of Virtual Machines in Azure DevOps, redundancy typically refers 
+to the implementation of backup or fail over mechanisms to ensure continuous and 
+reliable operation of the virtualized infrastructure. Redundancy is crucial for 
+umproving the availability and resilience of applications
+and resilience of applications and services running on VMs.
+Here are some common aspects of redundancy in the context of Azure DevOps 
+and Virtual Machines.
+1.High Availability:-Redundancy is often implemented to achieve high availability.
+This involves configuring multiple VM instances or resources that can take over in case of
+ a failure.
+Azure offers services like Azure Availability Zones and Azure Availability Sets to distribute VM 
+instances across multiple physical locations.
+2.Load Balancing:
+To distribute incoming network traffic across multiple VM instances,
+load balancing is used. This helps prevent overloading of a single VM and ensures
+that the workload is evenly distributed. Azure provides Azure load balancer for this purpose.
+3.Backup and Disaster Recovery:
+Redundancy may also involves regular backups and a well-defined disaster recovery strategy.
+Azure offers services like Azure Backup and Azure Site Recovery to help with backup,replication, and recovery of VMs.
+4.Fault Tolerance:
+Redundancy can be implemented to make the system tolerant to faults. This involves having redundant components or systems 
+in place so that if one fails, another can take seamlessly without affecting the overall operation.
+5.Auto-Scaling:
+Redundancy can be achieved through auto-scaling, where the number of 
+VM instances automatically adjusts based on workload. 
+This ensures that there are enogth resources available during peak times 
+and reduces them during periods of low demand.
+============================Lecture8======================================================
+Name:Linux
+Lpass:Linux@123456
+1.
+SYNTAX TO CONNECT THE LINUX VM:
+SSH USERID@IPADDRESS
+2.
+Update the linux VM:
+sudo apt update
+3.
+INSTALL IGINX IMAGE IN VM:
+sudo apt install nginx
+4
+WHERE CAN WE FIND THE CODE:
+/var/www/html
+..-bash: /var/www/html: Is a directory
+5.
+how can i know in which path i'm into 
+pwd (present working directory)
+../home/sidbi-admin
+/home/Linux
+6.
+HOW CAN I NAGIVATE FROM ONE DIR TO ANOTHER DIR:
+cd /var/www/html (change directory)
+7.
+HOW CAN I SEE THE CONTENTS IN THE PATH:
+ls
+index.nginx-debian.html
+8.
+HOW CAN I VIEW THE CONTENT IN A FILE:
+cat filename
+cat index.nginx-debian.html
+9.
+HOW CAN I EDIT THE CONTENT IN A FILE:
+sudo nano filname
+10.
+HOW CAN WE SAVE THE CONTENT OF A FILE AFTER EDITING:
+1.CONTROL+S
+2.FILE=>SAVE
+3.DIRECTLY CLOSED FILE
+CONTROL+X=>CLOSE THE EDITOR
+Y==>SAVE THE CONTENT
+ENTER==>TO CONFIRM THE FILE NAME 
+===========================Leacture 9===============================================
+WINSCP:
+Every file in Linux system mainly we have  modes:
+1.Owner:Who created the file.Read:Write:Execute
+2.Group:Members who are working in the team.Read:Write:Execute
+3.Others:Who are not related to the team.Read:Write:Execute
+VM Name:Linux-VM
+Username:Linux
+password:Linux@123456
+r-read
+w-write
+x-execute
+rwxrwxrwe:this file has full permissions to everybody
+rwxrw-r--:
+rwxrw-rw-:
+ssh Linux@20.115.30.106
+
+11.How can we change the permissions to a file:
+sudo chmod 777 filename............provide file name
+sudo chmod 777 index.nginx-debian.html
+sudo chmod 777 path ............provide path name
+sudo chmod 777 /var/www/html/
+
+777=>full permission to the file
+========================================================
+NEW VM IS CREATED 
+UPDATED THE VM
+DEPLOYED NGINX APP
+UPDATED WITH MY OWN CODE
+I WANT TO CREATE 100 VM WITH SAME CODE WHAT WE HAVE 
+CAPTURE THE VM:COPY EVERYTHING WHATEVER WE HAD IN CURRENT VM AND WE CAN HAVE A 
+SEPRATE COPY:IMAGE
+NEW VM:IMAGE
+==============================Lecture 10====================================================
+VIRTUAL NETWORK
+I.P address:
+every ip address have minimum 4 digit
+============
+An IP address, or Internet Protocol address, is a numerical label assigned to each 
+device connected to a computer network that uses the Internet Protocol for communication.
+It serves two main purposes: identifying the host or network interface and providing the 
+location of the host in the network.
+===========
+Eight degits
+0.0.0.0==>First IP address globally
+255.255.255.255==>Last IP address globally
+4,294,967,296==> IPv4  
+VNET1==>10.1.0.0/16==> IP ADDRESS==>10.0.0.1  -10.0.255.254
+IP 65K IP ADDRESS => IT TEAM (DEC,ADMIN ,TESTER)
+SUBNET1==>10.1.1.0/24==>256 IP ADDRESS==>DEV ONLY:WINDOWS VM
+SUBNET2==>10.2.2.0/24==>256 IP ADDRESS==>ADMIN ONLY:ADMIN ONLY:LINUX VM
+VNET1-RG	EASTUS
+
+@PEERING:ESTABLISH THE CONNECTION BETWEEN MULTIPLE NETWORKS.
+
+VNET2==>10.2.0.0/16==>65K IP ADDRESS:10.1.0.1  -10.1.255.254
+SUBNET1==>10.2.1.0/24==>256 IP ADDRESS ==>HR ONLY:LINUX VM
+SUBNET2==>10.2.2.0/24==>256 IP ADDRESS ==>PAYROLL ONLY:LINUX VM
+VNET2-RG	EASTUS
+First WINDOWS-VM=>[VNET1=>SUBNET1=>USERID(vritadmin)=>PASSWORD(Vritadmin@123456)]
+
+
+userid:arkkadmin
+password:Arkkadmin@123456
+==================================Lecture 11=====virtual network parctical========================================
+STORAGE ACCOUNT:
+---------------
+1.FILE SHARE
+2.CONTAINER
+Redundancy:
+Azure Storage always stores multiple copies of your data so that it is protected from 
+planned and unplanned events,
+including transient hardware failures, network or power outages, 
+and massive natural disasters.
+Redundancy ensures that your storage account meets its availability and durability
+ targets even in the face of failures. 
+======================================================================================================
+#Cammand Line Interface
+1)HOW CAN WE CREATE RESOURCE GROUP
+az group create --resource-group TEST-RG --location eastus
+AZ GROUP CREATE --RESOURCE-GROUP TEST-RG --LOCATION EASTUS
+2)HOW WE CAN LISTING RESOURCE GROUP
+AZ GROUP LIST -O TABLE
+az group list -o table
+3)HOW WE CAN DELETE  RESOURCE GROUP
+az group delete --resource-group TEST-RG -y
+AZ GROUP DELETE --RESOURCE-GROUP TEST-RG
+4)HOW WE CAN CREATE VIRUAL MACHINE
+az vm create -n LINUX-VM -g TEST-RG --image debian11 
+--admin-username sidbi-admin --admin-password Sidbi@123456
+5)HOW WE CAN LISING VIRUAL MACHINE
+az vm list -o table
+6)HOW WE CAN DELETE VM
+az vm delete --name LINUX-VM --resource-group TEST-RG -y
+7)HOW WE CREATE STORAGE ACCOUNT
+az storage account create -n nskhan -g TEST-RG  --sku standard_LRS
+8)HOW WE CAN DELETE STORAGE ACCOUNT
+az storage account delete -n nskhan
+9)HOW WE CAN CREATE WEB APPLICATION
+10)HOW WE CAN RUN ARM TEMPLATE USING AZ COMMAND
+az deployment group create --name VM-DEPLOY --resource-group TEST-RG  --template VMdeploy_ARM.json
+11)HOW WE CAN CREATE ARM TEMPLATE WITH PARAMTERS USING AZ COMMAND:-
+az deployment group create --name VM-DEPLOY --resource-group TEST-RG --temlate-upload VMdeploy_ARM.json --parameters @vm-params.json
+############################3Example to check List of available image ##################################
+cammand:az vm image list --output table --publisher Canonical --offer UbuntuServer --all
+
+================================POWERSHELL================================================
+1)RUN POWERSHELL AS ADMINISTRATORS ==>Check the Current Execution Policy:
+To see the current execution policy, run the following comman:-Get-ExecutionPolicy
+2)Get-ExecutionPolicy :-run the following comman:-Set-ExecutionPolicy RemoteSigned AND ENTER YES
+============================================
+1)echo "#######################LISTING OF RESOURCE GROUP###################################"
+az group list -o table
+echo "#######################CREATING OF RESOURCE GROUP###################################"
+az group create --resource-group TEST-RG --location eastus
+echo "#######################LISTING OF RESOURCE GROUP###################################"
+az group list -o table
+===============================================================================================================
+2)echo "#######################LISTING OF RESOURCE GROUP###################################"
+az group list -o table
+echo "#######################DELETING OF RESOURCE GROUP###################################"
+az group delete --resource-group TEST2-RG -y
+echo "#######################LISTING OF RESOURCE GROUP###################################"
+az group list -o table
+echo "#######################CREATING OF RESOURCE GROUP###################################"
+az group create --resource-group SAEED-RG --location eastus
+echo "#######################LISTING OF RESOURCE GROUP###################################"
+az group list -o table
+============================================storarge account===================================================================
+3)echo "#######################LISTING OF RESOURCE GROUP###################################"
+az group list -o table
+echo "#######################CREATING OF RESOURCE GROUP###################################"
+az group create --resource-group SAEED-RG --location eastus
+echo "#######################LISTING OF RESOURCE GROUP###################################"
+az group list -o table
+echo "#######################LISTING OF STORAGE ACCOUNT###################################"
+az storage account list -o table
+echo "#######################LCREATING OF STORAGE ACCOUNT###################################"
+az storage account create -n nskhanpathan -g SAEED-RG --sku standard_LRS
+echo "#######################LISTING OF STORAGE ACCOUNT###################################"
+az storage account list -o table
+=========================VARIABLE STORAGE ACCOUNT==========================
+echo "#######################LISTING OF VARIABLE ###################################"
+echo $RG="AZURE-RG"
+echo $LOC="eastus"
+echo $SA_LOC="WESTUS"
+echo $saName = "hydra"
+echo "#######################VARIABLE ###################################"
+$RG="AZURE-RG"
+$LOC="eastus"
+$SA_LOC="WESTUS"
+$saName = "hydra"
+
+echo "#######################LISTING OF RESOURCE GROUP###################################"
+az group list -o table
+echo "#######################CREATING OF RESOURCE GROUP###################################"
+az group create --resource-group $RG --location $LOC
+echo "#######################LISTING OF RESOURCE GROUP###################################"
+az group list -o table
+echo "#######################LISTING OF STORAGE ACCOUNT###################################"
+az storage account list -o table
+echo "#######################CREATING OF STORAGE ACCOUNT###################################"
+az storage account create -n $saName -g  $RG -1 $SA_LOC --sku standard_LRS
+echo "#######################LISTING OF STORAGE ACCOUNT###################################"
+az storage account list -o table
+
+==============================================================================================
+1)how we can delete storage account and resourse group in powershell
+echo "#######deleting storage account#######"
+az storage account delete -n hydrabad -y
+echo "#######deleting resource group #######"
+az group delete --resource-group AWS1-RG -y
+echo "#######lisiting resourse group#########"
+az group list -o table
+=================================read prompt=========================================================
+
+echo "#######################VARIABLE###################################"
+$RG=read-host -prompt 'please input your resourse group name'
+$LOC=read-host -prompt  'please input your resourse group location'
+echo "#######################LISTING OF RESOURCE GROUP###################################"
+az group list -o table
+echo "#######################CREATING OF RESOURCE GROUP###################################"
+az group create --resource-group $RG --location $LOC
+echo "#######################LISTING OF RESOURCE GROUP###################################"
+az group list -o table
+
+============================================================================================
+**ARM TEMPLATE :CREATING THE RESOURCES
+10)HOW WE CAN RUN ARM TEMPLATE USING AZ COMMAND
+az deployment group create --name Deploy-VM --resource-group TEST-RG  --template-file WINDOWS-VM.JSON
+11)HOW WE CAN CREATE ARM TEMPLATE WITH PARAMTERS USING AZ COMMAND:-
+az deployment group create --name WINDOWS-VM --resource-group TEST-RG --temlate-file VMdeploy_ARM.json --parameters @vm-params.json
+==========================================lecture 19===================================================
+GITHUB:-
+=====
+DEVELOPER : CODE
+FILE 1.TEXT==>ONSHORE TEAM
+1.EMAIL
+2.FILE SHARE :FILE.TEXT : ONE VERSION OF FILE
+3.GITHUM : FILE.TEXT ....ALL PERVIOUS VERSION AVAILABLE
+PERVIOUS VERSION:
+FILE.TXT==>1-JAN 2022
+FILE.TXT ==>15-JAN 2022
+
+OFFSHORE==>DEVELOP THE CODE ==>PUSH==>CLOUD(GITHUB) <==PULL==>APPEND MORE
+CODE ==>PUSH TO CLOUD (GITHUB)
+=========================
+1.HOW CAN WE CLONE THE REPOSITORY TO LOCAL MACHINE:
+git clone (url)
+example:git clone https://github.com/pathansaeed/webapp.git
+2.HOW CAN WE PUSH THE CODE TO GITHUB:
+git add filename or git add
+git commit -n "some comments"
+git push
+========================================================
+=========================
+1.HOW CAN WE CLONE THE REPOSITORY TO LOCAL MACHINE:
+1.git clone (url)
+example:git clone https://github.com/pathansaeed/webapp.git
+2.HOW CAN WE PUSH THE CODE TO GITHUB:
+git add filename or git add .
+
+LOCAL REP(SAMPLE.TXT)==>STAGING AREA (SAMPLE.TXT)
+3.git status ==>show us all the content in stg area
+4.git restore --staged. <filename >==>send back all or few files to local repos from stg area.
+5.git commit -m "some comments"
+
+STAGING AREA (SAMPLE.TXT) ==>CONFORM TO PUSH THE FILE TO REMOTE REPOS
+6.git push
+STAGING AREA (SAMPLE.TXT)==>PUSHED TO GIT HUB REPOS
+7.git pull ==>THE CURRENT CONTENT IN GITHUB REPOS WILL BE PULLED TO LOCAL REPOS.
+==========================================
+1.CLONE
+2.ADD
+3.COMMENT
+4.PUSH
+5.PULL
+=======
+1.GIT CLI:=TO MAKE THE THINGS HAPPEN, WE HAVE TO RUN THE COMMAND.
+2.GITHUB DEKTOP:-ITS KINDS OF WINDOWS SYSTEM.==>USER INTERFACE(UI)
+3.VISUAL STUDIO CODE ===>UI
+-----------configuring git---------
+.git config --global user.name "myname"
+ans@ git config --global user.name "saeed pathan"
+..git config --global user.email "someone@gmail.com"
+ans@git config --global user.email "pathansaeed75@gmail.com"
+.git config --list
+............................init cammand.........................
+init:-used to create new repos
+1.git init
+2.git remote add origin <-link->
+3.git remote -v  (to verfiye remote)
+4.git branch (to check branch)
+5.git branch -m main  (to rename branch)
+6.git push origin main..........git push -u origin main
+7.git checkout <branch name>     (to navigte)
+8.git checkout -b <--new branch name-->     (to create new branch)
+9. git branch -d <-branch name->            (to delte branch)
+==================Lecture 21 ==24-01-24======================
+DEVOPS STARTER :INTRODUTION FOR AZURE DEVOPS
+1.WE WILL HAVE THE CODE IN GITHUB ==>DEPOY THE CODE IN GITHUB TO APP SERVICES 
+WITH IN AZURE CLOUD.
+2.FROM AZURE WE WILL CREATE AN REPOSITORY IN GITHUB
+3.ONCE THE REPOSTRORY WHICH IS CREATED IN GITHUB CONTAINS SOME DEFAULT CODE.
+4.AZURE WILL PULL THE CCODE AND WILL TRY TO RUN 2 JOB IN GITHUB BY AZURE
+     1.BUILD JOB : IT WILL READ THE CODE FROM GITHUB AND IT WILL CONVERT THE CODE
+       FROM INCONSISTENT FORMAT TO CONSISTENT FORMAT.==>CI
+     2.DEPLOYMENT JOB: THE CONSISTENT FORMATWHAT IS BEEN CONVERTED ALREADY WILL
+       BE USED TO DEPLOY IN APP SERVICES WITH IN AZURE .==>CD
+5.WEB APP WILL BE CREATED AUTOMATICALLY
+CI==>CONTINOUS INTEGRATION
+CD==>CONTINOUS DEPLOYMENT
+
+YAML FILES:
+====================LECTURE 22==========================
+1.ORGANIZATION??: SEPREATE THE CLIENT 
+                  ABC COMPANY
+ BANKING                INSURANCE                  RETAIL CLIENT 
+APP1 APP2 APP3         APP1 APP2 APP3              APP1 APP2 APP3 
+   3-4                     3-4                         6-8
+   ORGANIZATION1          ORGANIZATION2                 ORGANIZATION3
+    PROJECT1             PROJECT2                   PROJECT3
+     REP1
+     REP2
+     REP3
+   ORG
+    APP1==>PRJ1==>REP1 
+    APP2==>PRJ2==>REP2 
+    APP3==>PRJ3==>REP3
+          PROJECT??
+==========================LECTURE 23=======================
+2.AZURE BOARDS
+              EPIC1
+              FEATURE1         FEATURE2
+   DS1  DS2 DS3               DES1    DES2     DES3     ========BACKLOG ITEM
+T1   T2     T3                T1      T2       T3
+==================LECTURE 24=========================
+
+3.AZURE REPOS
+4.PIPELINES
+
+5205904122001
+========================CODE EXAMPLE====
+BRANCHING STRATEGY;
+1.MAIN :DEFAULT BRANCH (PROD)
+  1)DEV ENV(BRANCH):CREATE THE CODE AND PUSH AND RUN MY APP, CHECK FOR THE RESULTS
+  2)QA BRANCH: PUSH THE CODE AND RUN APPLICATION ,CHECK FOR THE RESULTS--->TESTING TEAM
+  3)PROD/MAIN/MASTER BRANCH :-PUSH THE CODE AND RUN APPLICATION ON LIVE ENVIRNMENT,
+=====================Lecture 25=============================
+=======CONTINOUS INTERATION :-(CL)=========
+RESTORE: TO READ THE CODE FROM MY AZURE REPOS. THIS IS THE INTIAL POINT FOR MY CI PIPLINE.
+BUILD :- IT WILL CONVERT THE CODE FROM INCONSISTENT FORMAT TO CONSIST FORMAT
+TEST:-IT WILL DO SOME INTERNAL TESTINNG 
+PUBLISH: WHAT EVER CODE HAVE BEEN CONVERTED , AZURE WILL TRY TO ZIP(PUSH) THE CONVERTED IN A ZIP FOLDER (DROP/s.zip -ARTIFACT)
+PUBLISH ARTIFACT:AZURE WILL MOVE THE ARTIFACT FROM THE PLACE WHERE IT
+ GOT CREATED TO ANOTHER PATH WHERE THE ARTIFACT CAN BE DEPLOYED INTO WEBAPP.
+====CONTINOUS DEPLOYMENT :-(CD)=======
+1.WHERE IS THE ARTIFACT??
+2.WHERE WE NEED TO DEPLOY THE ARTIFACT??
+??IN CLASSIC EDITOR YOU NEED TO SEPREATE FILE FOR CI 
+AND SEPREATE FILE FOR CD
+IN YAML YOU DONT NEED SEPREATE 
+===============LECTURE 26========
+YAML FILES :
+Q:IN SINGLE FILE YOU CAN DO YOUR WHOLE STEP
+Q:YOU CAN RUN YAML PIPLINE IN MULTIPULE VIRTUAL MACHINE 
+INDENTATION==>SPACES WE HAVE TO MAINTAIN
+
+TRIGGER:
+  MASTER
+
+POOL:
+ VMIMAGE: UBUNTU-LATEST
+STAGES:
+       STAGE:BULID
+        JOBS:
+             JOB:
+                  STEPS:
+                    -SCRIPT: ECHO HELLO WORLD!!
+       STAGE:DEPLOY
+        JOBS:
+             JOB:
+                  STEPS:
+                    -SCRIPT: ECHO DEVOPS!!
+             JOB:
+                  STEPS:
+                    -SCRIPT: ECHO WELCOME TO TRAINING !!
+==============================Lecture 27====only practical========================
+
+============================Lecture 28=========================================
+ 1.DEFAULT DIRECOTRY:
+1.EXISTING ORGANIZATION ==>CREATE A PROJECT
+2.GO TO PIPLINE AND CHOSE GITHUB AS SOURCE.
+3.AZURE PIPLINE ==>GRANTING ACCESS ==>APPROVE AND INSTALL AT GITHUB
+4.NEW ORGANIZATION AND NEW PROJECT (MICROSOFT ACCOUNT)
+5.ALLOW AZURE TO CREATE THE NEW ORGANIZATION AND NEW PROJECT.
+6.DELETE NEW ORGANIZATION AND NEW PROJECT WHICH HAS BEEN CREATED UNDER YOUR MS ACCOUNT
+7.NAVIGATE TO DEFAULT DIRCTORY ==>ACCESS THE PROJECT
+8.GO TO PIPLINE ==>CHOSE THE REPOS(GITHUB)==>CONFIGURED THE PIPLINE
+9.PLACE THE ACTUAL YAML SCRIPT
+10.GO TO REALESE PIPLINE ==>AUTHORIZE YOR SUBSCRIPTION AND PROVIDE THE WEBAPP DETAILS 
+11.SAVE
+12.PIPLINE AND ==>RUN
+============================Lecture 29===================================
+DOCKER:
+Docker is an open-source platform that allows developers to automate the deployment,
+ scaling,and management of applications inside lightweight, portable containers.
+========
+ APP: MULTIPLE FEATURES
+
+FILE : 10K LINES OF CODE
+Feuture1==>1-1000==>FILE1==>APP1:DB1: IMAGE1: CONTAINERS1
+F2==>1-1500==>FILE2==>APP2:DB1: IMAGE2: CONTAINERS2
+F3==>1-1800..==>FILE3=>APP3:DB1: IMAGE3: CONTAINERS3 ..
+#S#IMAGE:IS NOTHING BUT A MY CODE THAT HAVE IN APP 
+#s#....ALL APPLICATION COME INTO MAIN APPLIATION  EX.ONLY 5% WILL BE IMPACT
+DIVIDE FILE INTO SMALL FILE TO AVOID IMPACT
+#EVERY FEATURE OR APPLICAION CONNECTED TO DATABASE
+
+TO UPDATE THE CODE,I HAVE TO STOP MY APP.
+ TO AVOID THIS ISSUE THEN DOKER COME INTO HE PICTURE
+================
+WHAT IS THE ARCHITECTURE OF DOCKER:
+1.DOCKER CLI :RUN THE COMMANDS
+2.DOCKER HOST:
+   1.DOCKER DAEMON: WHICH IS READING AND IMPLEMENTING MY COMMADS FROM DOCKER CLI.
+============================================
+The Docker Daemon (also known as dockerd) is a background process that runs on a Docker host
+ and manages Docker containers. It is responsible for:
+Managing containers: It handles the lifecycle of containers, such as starting, stopping, 
+and deleting them.
+Building images: The Docker Daemon can build container images from Dockerfiles 
+and other sources.
+Managing images: It can pull images from Docker registries 
+(like Docker Hub) or push images to a registry.
+==================================================
+   2.CONTAINER SPACE :THIS CONTAINS ALL CONTINER (IMAGES RUNNING INTERNALLY)
+   3.IMAGES SPACE:THIS CONTAIN ALL IMAGES AT LOCAL REPOSITORY
+3.REMOTE REPOSITORY :-DOCKER HUB:-THIS CONTINS LOT MANY BASE CODE IMAGES :NGINX   
+#S#:if the images space not available the container is not running try to find codde
+ into remote reposiory (docker hub) and first download it
+===========================Lecture 30=======================================
+#BASICS DOCKER CAMMANDS
+1.HOW CAN I SEE THE IMAGES LIST IN LOCAL REP:
+docker images
+2.HOW AN I SEE THE CONTAINERS LIST IN LOCAL REP:
+docker continer ls
+docker ps
+3.HOW CAN I REMOVE (DELETE) IMAGE FROM LOCAL REP:
+docker imge rm -f image image_name x.nginx
+example:-docker image rm -f image httpd 
+or docker image rm -f image 247f7abff9f7
+4.HOW CN I DELETE THE CONTAINER FROM LOCAL REP:
+docker rm container_id/continer_name
+5.HOW CAN I STOP THE CONTAINR :
+docker stop container_id/containeer_name
+6.HOW CAN I START THE CONTAINER:
+docker start container_id/container_name
+7.docker ps -a
+#S#docker ps -a: this is pooling the list of container: how many container 
+we created till now from you installed docker on your system
+8.HOW CAN WE STAR THE CONTAINER /RUN CONTAINER:
+docker run -d -p 80(LOCAL HOST PORT):80(IMAGE PORT) nginx(image_name):tag
+example:docker run -d -p 80:80 nginx:latest
+#S#-D:- WITHOUT -D ITS GENREATE SO MANY LOG AND UR SYSTEM WILL HANG
+#S#DOCKER HUB: IS A LIABRARY HAVING HUG NUMBER OF IMAGES OR CODE AVAILABLE
+9.WHERE CAN WE PUSH THE IMAGES TO MAKE THEM SECURE:
+AZURE CONTAINER REGISTRY (ACR):-THIS IS REMOTE REPOSITORY
+10.HOW CAN WE PULL THE IMAGE TO LOCAL REP:
+docker pull (nginx)image_name
+10.TO GET IPADDRES  FOR CONTAINERS:
+docker inspect container_id/container_name
+===========================Lecture 31=======================================
+11.HOW CAN I PLACE MY OWN CODE FILE IN DOCKER CONTAINER:
+docker exec -it container_id /container_name sh
+example:docker exec -it 2973c79f40c5 sh
+# cd /usr/share/nginx/html
+# rm index.html
+# ls
+50x.html
+# echo "<h1>Welcome To Aurangabad !!</h>"index.html
+<h1>Welcome To Aurangabad !!</h> index.html
+# ls
+50x.html
+# exit
+
+12.docker build -t webapp :1.0 .
+example:- E:\AZUREADMIN\Docker\webapp>docker build -t webapp .
+13.how we can create port binding container 
+..docker run -d -e HTTPD_ROOT_PASSWORD=secret --name conhttpd -p3000:3306 httpd
+--------------troubleshoot connands for docker.........
+1.docker logs container_id
+ex:-docker logs 2e0939b34fdf
+2.docker exec -t container_id/bin/sh
+ex:-docker exec -t 2e0939b34fdf/bin/sh
+............docker network........
+docker network ls
+docker network create network_name
+@docker network create mongo-network
+#this container intracct with each other without any port or local host ,so we net to create 
+docker network
+-p27017:27017
+--name mango
+-network mango-network
+-e root_username  admin
+-e root_password  Sidbi@123456
+.........................................
+@ans@
+docker run -d 
+-p27017:27017 
+--name mango 
+--network mango-network 
+-e MONGO_INITDB_ROOT_USERNAME=admin
+-e MONGO_INITDB_ROOT_PASSWORD=sidbi@123456 mango
+...................run example.mongo db....
+docker run -d -p 27017:27017 
+--name cont_man
+--network mongo-network 
+-e MONGO_INITDB_ROOT_USERNAME=admin 
+-e MONGO_INITDB_ROOT_PASSWORD=sidbi@123456 mongo:latest
+...................run example.mongo-express...............
+docker run -d 
+-p 8081:8081 
+--name con_mexpress 
+--network mongo-network 
+-e ME_CONFIG_MONGODB_ADMINUSERNAME=admin 
+-e ME_CONFIG_MONGODB_ADMINPASSWORD=sidbi@123456 
+-e ME_CONFIG_MONGODB_URL="mongodb://admin:sidbi@123456@mongo:27017" mongo-express
+
+===========================Lecture 32=======================================
+1.DOCKER FILE 
+DOCKER PULL NGINX ==>DOWNLOAD THE DOCKER HUB AND SAVE IT IN THE LOCAL REP.
+
+FROM NGINX
+COPY OWN_BASE_INDEX.HTML /PATH/
+
+AZURE CONTAINER REGISTRY==>SECURE PLACE/(REPOSITORY) WHERE WE CAN HAVE OUR IMAGES STORED
+==============================Lecture 33===============================
+1.HOW CAN I LOGIN INTO ACR:
+docker login (login server name)
+-->docker login testnsacr.azurecr.io
+2.TO PUSH THE IMAGE TO ACR , WE HAVE TO TAG THE LOCAL IMAGE TO REMOTE ACR IMAGE NAME,
+docker tag localimagename:tag remoteacr_login server/remoteimagename:tag
+docker tag nginx testnsacr.azurecr.io/nginx_app:1.0
+3.HOW CAN WE PUSH THE TAGGED IMAGE TO ACR
+docker push image name:tag
+docker push testnsacr.azurecr.io/nginx_app:tag
+4.HOW CAN WE INSTALL DOCKER IN LINUX VM
+sudo docker apt install docker.io
+provide permission :sudo chmod 777 /var/run/docker.sock
+5.how we can pull image from ACR to Linux vm
+
+buid the image ==>pushed the image to ACR ==>pulll the image from ACR and run 
+the image in a container==>deployed in webapp
+
+#CI/CD PIPLINE
+=====================================================================
+===========================Lecture 34=======================================
+#CI/CD PIPLINE :
+PUBLISH THE CODE 
+DOCKER CONTAINER
+
+STEP1:CREATE AN ACR
+STEP2:NEED TO BUILD THE IMAGE USING DOCKER FILE AND PUSH THE IMAGE TO ACR USING CI/CD
+SREP3:WE NEED TO CREATE THE WEBAPP FIRST.
+      WE HAVE TO PROVIDE THE ACR DETAILS
+      WE HAVE TO PROVIDE THE IMAGE AND TAG DETAILS MANUALLY
+========================Lecture 35===================================
+@if 1000 container running and docker hub is down so we need to start
+container manually its not easy task 
+1.Kubernetes that can be manage automative way 
+2.Kubernetes manage your docker
+===========Lecture 35===================
+KUBERNETES:ADVANCE CONCEPT FOR DOCKER
+#S#WE CREATED THOUSAND OF CONTAINER AND DOCKER HUB IS DOWN SO WE NEED START CONTAINERS
+ MANUALLY 
+#S#KUBERNETES IS MANAGE YOUR DOCKER
+#S#DOCKER DEMEON TAKE CARE ALL THE REQUIEST FROM DOCKER CLI
+ARCH:
+1.KUBECTL CLI :CLS IS USED TO SEND OUT THE CAMMANDS TO KUBERNETS TO MANAGE THE CONTAINERS
+2.MASTER :TRYING TO PROCESSS THE ORDERS FROM CLI .ITS NEVER IMPLEMENT AND KIND OF REQUIEST 
+FROM CLI
+#s#MASTER WILL BE MANAGE BY AZURE
+3.NODES:WHO WILL PROCESS THE REQUESTS FROM MASTER
+#S#IF YOU CREATED MULTIPLE NODE ,EVERY NODES HAVING ITS OWN CONFIGRAUTION
+#S#NODEES ARE CREATED BY USER
+========
+CAPTAIN OF WAITERS:
+WAITERS:PROCESS THE ORDER AND DELIVER THE FOOD THE CUSTOMER
+===========
+number of nodes we can create per kubernetes cluster :1000(3-5)
+NUMBER OF PODS WE CAN CREATE PER NODE:110
+NUMBER OF CONTAINERS WE CAN RUN IN ONE POD 3LAKH
+TOTAL NUMBER OF CONTAINERS IN A NODE :110*300000=>33000000 APPLICATION HANDLE PER NODE
+
+KUBECTL:
+set PATH=%PATH%;C:users\HP\.azure-kubectl
+KUBERNETES CLUSTER:IS ALL ABOUT YOUR NODES
+#S#az aks install-cli
+set PATH=%PATH%;C:users\HP\.azure-kubectl
+kubectl get nodes
+kubectl run mynginx --image=nginx
+==================Lecture 36=====================
+EVERY TIME WE WILL GO WITH ONE CONTAINER/POD: 110*3=330
+EVERY NODES CAN CONTAIN 110 PODS OR 110 CONTAINERS:110 APPLICATION RUNING PER NODE
+
+KUBECTL
+DOCKER
+AZ
+GIT
+==================Lecture 37=====================
+set PATH=%PATH%;C:\Users\fmadmin\.azure-kubectl
+KUBECTL WILL BE INSTALLED IN YOUR MACHINE AT C:\Users\fmadmin\.azure-kubectl
+>kubectl
+>kubectl get node
+>kubectl get ns
+
+to get the connection from kubectl(CMD) To TESTCLUSTER (AZURE)
+>az aks get-credentials -g TEST-RG -n TESTCLUSTER
+az aks update -g TEST-RG -n TESTCLUSTER --disable-azure-rbac//NOT REQ NOW
+C:\Users\fmadmin\.kube==> config file==>
+
+>kubectl get node
+>kubectl get pods
+>kubectl get ns
+
+>kubectl run webserver --image nginx (webserver==>name of the pod)
+
+basic commands:
+============
+1.kubectl get resources_name(pods,node,ns,svc)
+2.kubectl delete pod <pod_name>
+3.kubectl logs (pod_id)
+4.kubectl describe pod (pod_id)
+5.kubectl run pod_name --image image_name:TAG
+6.kubectl get pods -o wide (getting ip address of pods)
+7.kubectl scale deployment webserver2 --replicas=10
+=======================Lecture 38===========================
+STAGES:
+       STAGE:
+             JOBS:
+                  JOB:
+                      STEPSS:
+                             TASK1
+                             TASK2
+-----------
+1.VERSION
+2.KIND:POD
+3.METADATA: NAME OF THE POD
+4.SPAECIFICATION:IMAGE NAME ,TAG
+>
+HOW TO RUN YAML FILE
+>kubectl apply -f pod.yaml
+
+i want to create multiple pods(10) using the same image.
+if i delete any one of the pod, i should create the pod automatically
+
+Deployments:-
+deployment.yaml
+===========================
+1.API VERSION:V1
+2.KIND : POD/SERVICE/DEP;OYMENTS
+3.METADATA: NAME,NS(ENV NAME)
+4.SPECIFICATION:IMAGE NAME:TAG NGINX:2.4
+
+WE CAN RUNTHE KUBERENETES YAML FILE==>
+E:\AZUREADMIN\YAML>kubectl apply -f PODS.yaml
+====================
+pod running ==>deleted
+deployment ==>when we want to group of pods
+              when pod is deleted ,then automaatically new pod will be created .
+=========================Lecture 39=======================================================
+TO RUN HELM CHART:
+>helm install app1 ./app33/
+>helm upgrade app1 ./app33/
+========================================
+NAMESPACES:
+>kubectl get ns ==>default ns
+>kubectl create ns dev/qa/uat/prod
+>helm install app33 ./app33/ -n dev/qa/uat/prod
+>kubectl get pods -n dev/qa/uat/prod
+>kubectl get svc -n dev/qa/uat/prod
+
+default name space
+
+JSON FORMAT.
+
+========================================================
+====================Lecture 40========================
+TERARAFARM:HASHICORP: #3rd PARTY TOOL
+========
+using tf we can create resources in the azure cloud.
+its third party tools, any kind of cloud like amazone ,google,azure we can create resource
+ using terrafarm
+ARM TEMPLATES: we can create the resource and is part of azure
+1.PROVIDER FILE:SCRIPT
+# We strongly recommend using the required_providers block to set the
+# Azure Provider source and version being used
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "=3.0.0"
+    }
+  }
+}
+
+# Configure the Microsoft Azure Provider
+provider "azurerm" {
+  skip_provider_registration = true # This is only required when the User, Service Principal, or Identity running Terraform lacks the permissions to register Azure Resource Providers.
+  features {}
+}
+
+# Create a resource group
+resource "azurerm_resource_group" "example" {
+  name     = "example-resources"
+  location = "West Europe"
+}
+
+# Create a virtual network within the resource group
+resource "azurerm_virtual_network" "example" {
+  name                = "example-network"
+  resource_group_name = azurerm_resource_group.example.name
+  location            = azurerm_resource_group.example.location
+  address_space       = ["10.0.0.0/16"]
+}
+MAIN CAMMAOND
+======
+1.TERRAFARORM INIT: THIS HELP THE TERRAFORM TO INTIATE THE ENVIRONMENT AND GET READY FOR 
+RUNNING 
+TO CREATE THE RESOURCES IN AZURE
+2.TERRAFORM PLAN: 
+PROVIDER.TF
+--rg.tf
+RESOURCE_GROUP.TF:THIS CONTENT A SCRIPT WHERE IT TRY TO CREATE RESOURCE GROUP
+resource "azurerm_resource_group" "example" {
+  name     = "TEST-RG"
+  location = "EAST US"
+}
+rg.name-"devops-rg"
+rg.location"eastus"
+local refernce varibale name
+
+1.DO WE HAVE CREATED VRIT-RG EARLIER USING TERRAFORM?
+2.DO WE HAVE THE SAME RG NAME IS AVAILABLE AT AZURE PORTAL?
+
+THE FILE WHICH IS USED TO COMPARE IS CALLED : TERRAFORM.TFSTATE:VRIT-RG AND EASTUS
+tfstate FILE (this is the file which is created by default)
+3.TERRAFORM APPLY: THIS COMES WITH THE PLAN AND EXCUTES THE PLAN
+APPROVAL : YES
+4.TERRAFORM DESTROY
+terraform plan -destroy -out main.destroy.tfplan
+5.HOW TO EXCUTE TERRAFORM DESTROY PLAN
+terraform apply main.destroy.tfplan
+========================Lecture 41==========================
+STEPS TO DOWNLOAD AND INSTALL THE TERRAFORM ON UBUNTU LINUX:
+
+1.INSTALL AZ CLI ON LINUX
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+#sudo apt-get update
+#sudo apt-get install ca-certificates curl apt-transport-https lsb-release gnupg
+#sudo apt-get update
+#sudo apt-get install azure-cli
+#az login
+2.wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install terraform
+3.INSTALL ZIP WITH CAMMOND:
+sudo apt-get install zip -y
+
+NEXT, UNZIP THE TERRAFORM DOWNLOAD WITH THE COMMAND:
+unzip terraform*.zip
+
+FINALLY ,MOVE THE EXECUTABLE WITH COMMAND:
+#HOW to MOVE one dir to another 
+ cd /home/sidbi-admin/TERRAFORM-APP
+sudo mv terraform /usr/local/bin
+
+TEST TO MAKE SURE THE INSTALLATION WORKS WITH THE COMMAND:
+terraform version
+===========================
+1.how to check terraform version
+terraform version
+2.
+======
+SCRIPT          TFSTATE FILE          SUB
+YES               YES                NO CHANGE
+NO                YES                DELETED
+YES               NO                  CREATED
+NO                NO                  if already exits: No changed happend
+==================================Lecture 42============================
+What is the difference between TF and Tfvar?
+Variables.tf is for the declaration of variables, name, type, description, default values and additional meta data.
+ *. tfvars is for giving the actual variable values during execution.
+1.HOW TO RUN TERRRAFORM.TFVARS FILE IN TERRAFORM
+terraform apply -var-file=tfvars file name
+-->terraform apply -var-file=terraform.tfvars
+==================================Lecture 43============================
+#S# HOW CAN I PUSH  SECURE PLACE TO PUT TERRAFORM.TFSTATE FILE
+backend.tf=====>go to google->backend.tf file for azure using terraform
+terraform {
+  backend "azurerm" {
+    resource_group_name  = "TEST-RG"---------->resource group name
+    storage_account_name = "vritsolsa"-------->storage account name
+    container_name       = "tfstate"----------->container name (created within storage account)
+    key                  = "APP-TF.terraform.tfstate"----------(path of tf statefile )
+  }
+}
+===================================resume================================================
+===================TECHINICAL PREVIEW=====================
+Tools                    :WINSCP3 and Service Now(INCIDENT AND CHANGE REQUESTS).
+Operating System         :Windows,Linux
+SCRIPTING                :Power Shell, Azure CLI,docker CLI,kubectl CLI,GIT CLI.
+Cloud                    :Azure
+CI/CD                    :Azure Devops
+Container                :Docker
+Container Orchestration  :Kubernetes
+Design Tools             :Ms Visual Studio
+
+P1->CRITICAL 30
+P2->SLA-4 HOURS->30 MINS ASSIGNED
+P3->2 BUSINESS DAYS
+P4->10 BUSINESS DAYS
+======================CAREER RECORD=====================
+Currently working as DEVOPS Engineer with xxxxxxxx from 25-sep-2023
+==========================PROJECT EXECUTED====================================
+Title           :Wealth Management Solution                     Sep 23 -till date
+Client          :xxx
+Role            :Azure Devops Engineer.
+Technology Used :Kubernetes,Docker,Azure Portal,MS Visual 2010/12,GIT Hub,Power Shell.
+Environment     :Development,Production Environment and System Integration Testing(SIT)
+
+Scope:
+     mentioned company what excatly do.
+===============================Roles Performed=========================================
+Roles Performed:
+      .Azure Devops Build & Deployment Automation, & Continuous Integration Continupus Deployment in
+       on Premises to azure Environment.
+      .Creating the branching and merging strategies for the development using version control system
+       Git
+      .Experience in running GIT commands in GIT CLI to push and Pull the code to /from GIT Hub to/from
+       local registry. 
+      .Used VSTS to clone the Azure Repos and Git Hub Repos to local registry and push back to remote
+       registry.
+      .Creating variables in YAML files used in Azure Devops release pipeline instead of hard Coding.
+      .Created Resources in Azure using ARM template and terraform.
+      .Created VM.Storage Account,Virtual Network,App Service,Container Registry,Kubernetes Servivces
+       Using Portal.
+      .Created CI/CD pipeline using YAML Files in deploying the code in Web Application in multiple
+       Environment where the source in Azure Repos and Github.
+      .used docker to run the commands in docker CLI to build the image based upon the docker file and 
+       push the built image to Azure Container registry.
+      .Used YAML file to automate the building the image based upon the code,pushing to ACR and 
+       Deploying in webapp's.
+      .Haaving experence in running kubernetes commands using kubectl to get the details of pods,
+       nodes,deployment,and services.
+      . using helm charts,run yaml files to deploy the deployment aand services in kubernetes 
+        environment in a specific namespaces.
+      . Created resources using power shell Script.
+      . Supported Scum Master in Azure boards for creating work items (EPICES,FEATURE,BACKLOG
+        PRODUCT ITEM,TASK) and trauck the status of project task.
+      . created buid and release pipline in Azure Devops and did deployment to multiple platforms by
+        implementing CI/CD YAML file.
+      . Setting up pre and post deployment approvals USING SERVICE NOW before Deployment to multiple
+        stages in Release pipeline.
+      . Worked with Developer in Case of issue occured.
+      Technology used in project is VSTS.
+===============================interview question & answer=====================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
